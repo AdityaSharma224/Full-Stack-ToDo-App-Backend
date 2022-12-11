@@ -5,7 +5,7 @@ const cors = require('cors')
 
 require("dotenv").config();
 const app = express();
-//mongoose.set(" strictQuery", true);
+//mongoose.set(" strictQuery", false);
 const port = process.env.port || 5000;
 
 app.use(express.json())
